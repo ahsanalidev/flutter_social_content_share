@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '12.2.1'
-  s.dependency 'FBSDKShareKit', '12.2.1'
+  s.dependency 'FBSDKCoreKit', '13.2.0'
+  s.dependency 'FBSDKShareKit', '13.2.0'
 
   s.platform = :ios, '9.0' 
 end
